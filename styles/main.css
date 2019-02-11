@@ -115,6 +115,9 @@ body {
 #submit:hover {
 	background-color: #404040;
 }
+#submit:focus {
+	outline: none;
+}
 
 #radio li, #checkbox li {
 	padding-bottom: 5px;
