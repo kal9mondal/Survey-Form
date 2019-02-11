@@ -80,6 +80,9 @@ body {
 #radio input, #checkbox input {
 	margin-right: 5px;
 }
+#radio input:hover, #checkbox input:hover {
+	cursor: pointer;
+}
 
 #dropdown {
 	background-color: #1a1a1a;
@@ -103,6 +106,10 @@ body {
 	margin: 10px;
 	border: 2px solid #ffffff;
 	text-align: center;
+}
+
+#submit:hover {
+	cursor: pointer;
 }
 
 #submit:hover {
