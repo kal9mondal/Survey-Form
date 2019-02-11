@@ -58,6 +58,8 @@ body {
 
 	background-color: #1a1a1a;
 	color: #ffffff;
+	font-family: 'Roboto Slab';
+	font-size: 16px;
 }
 
 #title {
@@ -128,8 +130,6 @@ ul {
 	resize: vertical;
 	min-height: 100px;
 	max-height: 150px;
-	font-family: 'Roboto Slab';
-	font-size: 16px;
 }
 
 ::-webkit-input-placeholder {
