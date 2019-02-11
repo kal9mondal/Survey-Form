@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<meta name="keywords" content="FCC, freecodecamp, Survey, Form, Project" />
+	<meta name="description" content="FreeCodeCamp Project Survey Form" />
+	<meta name="author" content="kal9mondal" />
+
+	<title>FCC: Survey Form</title>
+
+	<link rel="stylesheet" href="styles/main.css" />
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+	<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+	<!-- The script above is to test our project, for meeting all the requirements. -->
+
+	<div class="content">
+
+		<div class="header">
+			<h1 id="title">Survey Form</h1>
+			<p id="description">Description of the Survey Form</p>
+		</div>
+
+		<div class="container">
+			<form id="survey-form" name="Survey Form" action="#">
+
+				<div class="element">
+					<div class="labels">
+						<label id="name-label" for="name">Name:</label>
+					</div>
+					<div class="inputs">
+						<input required autofocus class="input-box" form="survey-form" type="text" name="name" id="name" placeholder="Full Name">
+					</div>
+				</div>
+
+				<div class="element">
+					<div class="labels">
+						<label id="email-label" for="email">Email:</label>
+					</div>
+					<div class="inputs">
+						<input required class="input-box" form="survey-form" type="email" name="email" id="email" placeholder="Email Address">
+					</div>
+				</div>
+
+				<div class="element">
+					<div class="labels">
+						<label id="number-label" for="number">Age:</label>
+					</div>
+					<div class="inputs">
+						<input class="input-box" type="number" form="survey-form" name="age" id="number" placeholder="Age" min="1" max="150">
+					</div>
+				</div>
+
+				<div class="element">
+					<div class="labels">
+						<label id="dropdown-label" for="dropdown">Current Mood:</label>
+					</div>
+					<div class="inputs">
+						<select form="survey-form" name="dropdown" id="dropdown">
+							<option disabled selected value>Select an option</option>
+							<option value="angry">Angry</option>
+							<option value="bored">Bored</option>
+							<option value="happy">Happy</option>
+							<option value="irritated">Irritated</option>
+							<option value="sad">Sad</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="element">
+					<div class="labels">
+						<label id="radio-label">Will you recommend?</label>
+					</div>
+					<div class="inputs">
+						<ul id="radio">
+							<li>
+								<label for="r1"><input type="radio" value="yes" name="radio-btn" id="r1">Yes</label>
+							</li>
+							<li>
+								<label for="r2"><input type="radio" value="maybe" name="radio-btn" id="r2">Maybe</label>
+							</li>
+							<li>
+								<label for="r3"><input type="radio" value="no" name="radio-btn" id="r3">No</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="element">
+					<div class="labels">
+						<label id="ckeckbox-label">Select all that applies to you:</label>
+					</div>
+					<div class="inputs">
+						<ul id="checkbox">
+							<li>
+								<label for="cb1"><input type="checkbox" value="a" name="check-box" id="cb1">A</label>
+							</li>
+							<li>
+								<label for="cb2"><input type="checkbox" value="b" name="check-box" id="cb2">B</label>
+							</li>
+							<li>
+								<label for="cb3"><input type="checkbox" value="c" name="check-box" id="cb3">C</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="element">
+					<div class="labels">
+						<label id="text-label" for="textarea">Any Comments or Suggestions:</label>
+					</div>
+					<div class="inputs">
+						<textarea class="input-box" name="textarea" id="textarea" placeholder="Enter your comment here"></textarea>
+					</div>
+				</div>
+
+				<input form="survey-form" id="submit" type="submit" value="Submit">
+			</form>
+		</div>
+
+	</div>
+
+</body>
+
+</html>
