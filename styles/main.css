@@ -130,6 +130,11 @@ body {
 	outline-color: #1a1a1a;
 }
 
+/* Required */
+.required:before {
+	content: "* ";
+}
+
 
 h1 {
   margin: 0;
