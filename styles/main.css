@@ -53,14 +53,15 @@ body {
 	width: 275px;
 	padding: 5px;
 	margin: 10px;
-	border: 2px solid #5e5e5e;
-	border-radius: 5px;
 
 	background-color: #1a1a1a;
 	color: #ffffff;
 	font-family: 'Roboto Slab';
 	font-size: 16px;
 }
+
+
+
 
 #title {
 	font-size: 36px;
@@ -91,8 +92,6 @@ body {
 	width: 160px;
 	padding: 5px;
 	margin: 10px;
-	border: 2px solid #5e5e5e;
-	border-radius: 5px;
 	font-size: 16px;
 }
 
@@ -100,12 +99,12 @@ body {
 	background-color: #1a1a1a;
 	color:#ffffff;
 	font-size: 18px;
-	border-radius: 5px;
 	height: 40px;
 	width: 100px;
 	margin: 10px;
-	border: 2px solid #ffffff;
 	text-align: center;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
 }
 
 #submit:hover {
@@ -122,6 +121,13 @@ body {
 #radio li, #checkbox li {
 	padding-bottom: 5px;
 	margin-left: 10px;
+}
+
+/* Border & Outline Stuffs */
+.input-box, #dropdown {
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	outline-color: #1a1a1a;
 }
 
 
