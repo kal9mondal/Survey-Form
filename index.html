@@ -59,34 +59,41 @@
 
 				<div class="element">
 					<div class="labels">
-						<label id="dropdown-label" for="dropdown">Your current mood:</label>
+						<label id="dropdown-label" for="dropdown">How often do you use this app?</label>
 					</div>
 					<div class="inputs">
-						<select form="survey-form" name="dropdown" id="dropdown">
+						<select form="survey-form" name="listen-duration" id="dropdown">
 							<option disabled selected value>Select an option</option>
-							<option value="angry">Angry</option>
-							<option value="bored">Bored</option>
-							<option value="happy">Happy</option>
-							<option value="irritated">Irritated</option>
-							<option value="sad">Sad</option>
+							<option value="less1">&lt; 1 hour</option>
+							<option value="1to2">1-2 hours</option>
+							<option value="2to3">2-3 hours</option>
+							<option value="3to4">3-4 hours</option>
+							<option value="4to5">4-5 hours</option>
+							<option value="more5">&gt; 5 hours</option>
 						</select>
 					</div>
 				</div>
 
 				<div class="element">
 					<div class="labels">
-						<label id="radio-label">Will you recommend?</label>
+						<label id="radio-label">What do you like most about this app?</label>
 					</div>
 					<div class="inputs">
 						<ul id="radio">
 							<li>
-								<label for="r1"><input type="radio" value="yes" name="radio-btn" id="r1">Yes</label>
+								<label for="r1"><input type="radio" value="functionality" name="radio-btn" id="r1">Functionality</label>
 							</li>
 							<li>
-								<label for="r2"><input type="radio" value="maybe" name="radio-btn" id="r2">Maybe</label>
+								<label for="r2"><input type="radio" value="look-feel" name="radio-btn" id="r2">Look & Feel</label>
 							</li>
 							<li>
-								<label for="r3"><input type="radio" value="no" name="radio-btn" id="r3">No</label>
+								<label for="r3"><input type="radio" value="speed" name="radio-btn" id="r3">Speed</label>
+							</li>
+							<li>
+								<label for="r4"><input type="radio" value="stability" name="radio-btn" id="r4">Stability</label>
+							</li>
+							<li>
+								<label for="r5"><input type="radio" value="navigation" name="radio-btn" id="r5">Navigation</label>
 							</li>
 						</ul>
 					</div>
@@ -94,18 +101,24 @@
 
 				<div class="element">
 					<div class="labels">
-						<label id="ckeckbox-label">Select all that applies:</label>
+						<label id="ckeckbox-label">Where do you most likely use this app?</label>
 					</div>
 					<div class="inputs">
 						<ul id="checkbox">
 							<li>
-								<label for="cb1"><input type="checkbox" value="a" name="check-box" id="cb1">A</label>
+								<label for="cb1"><input type="checkbox" value="home" name="check-box" id="cb1">At home</label>
 							</li>
 							<li>
-								<label for="cb2"><input type="checkbox" value="b" name="check-box" id="cb2">B</label>
+								<label for="cb2"><input type="checkbox" value="car " name="check-box" id="cb2">In the car</label>
 							</li>
 							<li>
-								<label for="cb3"><input type="checkbox" value="c" name="check-box" id="cb3">C</label>
+								<label for="cb3"><input type="checkbox" value="work" name="check-box" id="cb3">At work</label>
+							</li>
+							<li>
+								<label for="cb4"><input type="checkbox" value="bed" name="check-box" id="cb4">In bed</label>
+							</li>
+							<li>
+								<label for="cb5"><input type="checkbox" value="chores" name="check-box" id="cb5">While doing chores</label>
 							</li>
 						</ul>
 					</div>
