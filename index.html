@@ -28,7 +28,13 @@
 		</div>
 
 		<div class="container">
-			<form id="survey-form" name="Survey Form" action="#">
+			<form id="survey-form" name="Survey Form" action="#" onsubmit="afterSubmitFunction()">
+
+				<script>
+					function afterSubmitFunction() {
+						alert("Submit Successful.");
+					}
+				</script>
 
 				<div class="element">
 					<div class="labels">
